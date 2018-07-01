@@ -5,3 +5,9 @@ def square_array(array)
     new_array.push(num * num)
   end
 end
+
+some_num = [9, 10, 16, 25]
+
+new_array = square_array(some_num)
+
+puts new_array
